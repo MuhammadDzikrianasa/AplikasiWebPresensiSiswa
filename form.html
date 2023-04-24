@@ -3,29 +3,30 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Presensi Siswa</title>
+	<title>Form</title>
 	<link rel="stylesheet" href="style1.css">
 </head>
 <body>
 	<div class="box">
-		<form>
-			<h1>Lupa Password</h1>
+		<form action="login.html">
+			<h1>Daftar</h1>
 			<div class="inputBox">
 				<input type="text" required>
-				<span>Username</span>
+				<span>Nama Lengkap</span>
 				<i></i>
 			</div>
+			<div class="inputBox">
+				<input type="email" required>
+				<span>Email</span>
+				<i></i>
+			</div>
+			
 			<div class="inputBox">
 				<input type="password" required>
 				<span>Password</span>
 				<i></i>
 			</div>
-			<div class="inputBox">
-				<input type="password" required>
-				<span>Conf Password</span>
-				<i></i>
-			</div>
-			<input type="submit" value="Login">
+			<input type="submit" value="Submit">
 		</form>
 	</div>
 </body>
