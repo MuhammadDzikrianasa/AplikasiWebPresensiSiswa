@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Presensi Siswa</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 5px;
-            position: center;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <h1>Presensi Siswa</h1>
+    <div class="header">
+        <h2>Portal SMA NEGERI 1</h2>
+        </div>
 
-    <?php
+        <div class="topnav">
+          <a >Home</a>
+          <a href="presensi.php">Presensi Siswa</a>
+        </div>
+
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>Presensi Siswa</h2>
+               <?php
     // Koneksi ke database
     $conn = mysqli_connect("localhost", "root", "", "presensi_siswa");
 
@@ -84,5 +88,11 @@
 
         <input type="submit" name="submit" value="Submit">
     </form>
-</body>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>Copyright 2023</p>
+        </div>
+    </body>
 </html>
