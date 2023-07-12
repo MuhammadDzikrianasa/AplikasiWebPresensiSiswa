@@ -12,7 +12,7 @@
         </div>
 
         <div class="topnav">
-          <a >Home</a>
+          <a href="home.php">Home</a>
           <a href="presensi.php">Presensi Siswa</a>
         </div>
 
